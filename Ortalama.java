@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test {
+public class Ortalama {
     public static void main(String[] args)       
     {
         int turk,mat,fizik,kimya,tar,muz;
