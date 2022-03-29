@@ -7,13 +7,13 @@ public class Ucgen {
         Scanner input = new Scanner(System.in);
         
         System.out.print("1.Kenar = ");
-         kN1 = input.nextInt();
+         kN1 = input.nextDouble();
 
         System.out.print("2.Kenar = ");
-         kN2 = input.nextInt();
+         kN2 = input.nextDouble();
 
         System.out.print("3.Kenar = ");
-         kN3 = input.nextInt();
+         kN3 = input.nextDouble();
         
 
         String hata1 = (kN3 < 1) ? "Negatif Sayı" : " " ;
