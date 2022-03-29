@@ -7,7 +7,7 @@ public class taksi {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Yolculuk Mesafesi = ");
-         mesafe = input.nextInt();
+         mesafe = input.nextDouble();
          
          mesafe = mesafe *2.20;
          double sonuc = 10 + mesafe;
