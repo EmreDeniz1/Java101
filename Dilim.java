@@ -7,10 +7,10 @@ public class Dilim {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Yarı Çap = ");
-         r = input.nextInt();
+         r = input.nextDouble();
 
         System.out.println("Dilim Açısı = ");
-         aci = input.nextInt();
+         aci = input.nextDouble();
          
          alan = (pi*r*r)*(aci / 360);
         System.out.println("Alan = " + alan);
