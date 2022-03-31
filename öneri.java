@@ -8,11 +8,11 @@ public class öneri {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Sıcaklığı giriniz : ");
-        heat = input.nextInt();
+        sıcaklık = input.nextInt();
 
         if (sıcaklık < 5){
             System.out.println("Kayak yapabilirsiniz.");
-        }else if(sıcaklık <= 25){ 
+        }else if(sıcaklık <= 25){ https://github.com/FellowNewLearner/Java101/blob/main/%C3%B6neri.java
             if (sıcaklık <= 15){
                 System.out.println("Sinemaya gidebilirsiniz.");
             }
